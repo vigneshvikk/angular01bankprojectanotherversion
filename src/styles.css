@@ -1,1 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
+
+  @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Allerta+Stencil&family=Anton&family=Caveat&family=Cinzel&family=Merriweather:ital@0;1&family=Open+Sans:ital,wght@0,400;1,300&family=Playfair+Display+SC:ital,wght@0,400;1,900&family=Poppins:ital,wght@0,400;1,300&family=Prosto+One&family=Rubik+80s+Fade&family=Rubik+Gemstones&family=Rubik+Vinyl&family=Secular+One&family=Sevillana&family=Seymour+One&family=Shadows+Into+Light&family=Sofia+Sans&family=Sofia+Sans+Extra+Condensed&family=Uchen&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(./assets/AdobeStock_569678687_Preview.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+header{
+    color: #5e2f46;
+    background-color:#7b8f8a ;
+    font-size: 30px;
+    font-weight: 800;
+}
+header span{
+color: #001449;
+}
+
+header:hover{
+    color: #001449;
+}
+header i{
+    color:#fbffe3;
+}
+header i:hover{
+    transform: scale3d(-1.4, 0.4, 0.7);
+    transition: 1s linear;
+}
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    color:#5e2f46;
+    background-color: #b9d4d9aa;
+}

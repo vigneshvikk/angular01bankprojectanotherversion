@@ -1,0 +1,20 @@
+<!-- <p class="text-white">{{data1}}</p>    ---------Stringinterpolation expample DB(1) -->
+
+<div class="container w-75  text-center mt-5 p-4">
+  <h2> Sign In  <i class="fa-solid fa-hand-point-down"></i> </h2>
+</div>
+
+
+    <div class=" container  w-75 text-center mt-4">
+    <div class="row">
+        <div class="col-lg-12">
+          <form class="p-5 mt-3">
+                    <input (change)="acnoChange($event)"    id="u1" type="text"      name="uname"  class="form-control mt-3 "   [placeholder]="data2"  >
+                    <input (change)="pswChange($event)"    id="p1" type="password"  name="pname"   placeholder="Enter Password Here" class="form-control mt-3">
+                    <button (click)="login()" class="btn text-center mt-3">Log in</button>
+          </form>
+          
+        </div>
+    </div>
+    </div>
+

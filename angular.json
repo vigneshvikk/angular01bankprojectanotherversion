@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "projectBank": {
+    "ProjectBank": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "projectBank:build:production"
+              "browserTarget": "ProjectBank:build:production"
             },
             "development": {
-              "browserTarget": "projectBank:build:development"
+              "browserTarget": "ProjectBank:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "projectBank:build"
+            "browserTarget": "ProjectBank:build"
           }
         },
         "test": {
