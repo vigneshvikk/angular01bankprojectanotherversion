@@ -1,0 +1,24 @@
+.container .dep,.with {
+    background-color: #0808085f;
+    /* border:0.5px solid #ffeaad ; */
+    border-radius: 7px;
+    box-shadow: 5px 6px 20px rgb(230, 228, 228) , -3px -2px 10px rgb(183, 179, 179);
+}
+.btn{
+    background-color:#001449;
+    color: #fff;
+    font-weight: bold;
+}
+.btn:hover{
+    color: #001449;
+    background-color: #fff;
+    transition: 1s;
+   }
+.container .transaction a{
+    color: rgb(239, 92, 38);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+  

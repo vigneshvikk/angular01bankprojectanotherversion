@@ -6,15 +6,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: 'Kabel Book';
+    font-style: normal;
+    font-weight: normal;
+    src: url(./assets/kabel-cufonfonts-webfont/kabel.woff);
+    }
 body{
     font-family: 'Poppins', sans-serif;
     background-image: url(./assets/AdobeStock_569678687_Preview.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 150vh;
 }
 header{
+    font-family: 'Kabel Book';
+
     color: #5e2f46;
     background-color:#7b8f8a ;
     font-size: 30px;
@@ -36,7 +44,7 @@ header i:hover{
 }
 footer{
     width: 100%;
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     color:#5e2f46;
     background-color: #7b8f8a;
